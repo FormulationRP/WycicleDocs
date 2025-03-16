@@ -1,7 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot Documentation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c2f33;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #23272a;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2, h3 {
+            color: #7289da;
+            text-align: center;
+        }
+        a {
+            color: #00aff4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        code {
+            background: #1e2124;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .command-box {
+            background: #1e2124;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <h1>Discord Bot Documentation</h1>
+        <p>Welcome to the official documentation for <strong>[Bot Name]</strong>! This bot helps manage your server with powerful features.</p>
+
+        <h2>Features</h2>
+        <ul>
+            <li>Twitch and YouTube Notifications</li>
+            <li>Moderation Tools</li>
+            <li>Custom Commands</li>
+            <li>Logging</li>
+        </ul>
+
+        <h2>Setup & Installation</h2>
+        <ol>
+            <li>Invite the bot using <a href="[Invite Link]">this link</a>.</li>
+            <li>Clone the repository: <code>git clone https://github.com/yourusername/botname.git</code></li>
+            <li>Install dependencies: <code>npm install</code></li>
+            <li>Run the bot: <code>npm start</code></li>
+        </ol>
+
+        <h2>Commands</h2>
+        <div class="command-box">
+            <h3>General Commands</h3>
+            <ul>
+                <li><code>!help</code> – Shows help menu</li>
+                <li><code>!ping</code> – Checks bot status</li>
+            </ul>
+        </div>
+        <div class="command-box">
+            <h3>Moderation Commands</h3>
+            <ul>
+                <li><code>!kick @user</code> – Kicks a user</li>
+                <li><code>!ban @user</code> – Bans a user</li>
+            </ul>
+        </div>
+        <div class="command-box">
+            <h3>Notifications</h3>
+            <ul>
+                <li><code>!twitch [channel]</code> – Setup Twitch notifications</li>
+                <li><code>!youtube [channel]</code> – Setup YouTube notifications</li>
+            </ul>
+        </div>
+
+        <h2>Support & Issues</h2>
+        <p>If you need help, visit our <a href="https://github.com/yourusername/botname/issues">GitHub Issues</a> or <a href="[Discord Support Link]">join our Discord</a>.</p>
+    </div>
 </body>
 </html>
